@@ -1,0 +1,259 @@
+{
+  "title": "EEGManyLabs Eimer1996 Resting State",
+  "description": "This dataset contains raw EEG resting-state recordings (eyes open and eyes closed) in BIDS format. These data were collected from 166 healthy adult participants as part of an EEGManyLabs replication of Eimer (1996), prior to the main replication task. Recordings were collected across multiple sites and differ in sampling rates, channel layouts, and recording references.",
+  "creators": [
+    {
+      "name": "EEGManyLabs replication teams"
+    },
+    {
+      "fullName": "Dominik Welke",
+      "firstName": "Dominik",
+      "lastName": "Welke",
+      "roles": [
+        {
+          "value": "Contributor"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0002-5529-1998"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "information": {
+        "value": "EEG"
+      }
+    }
+  ],
+  "dimensions": [
+    {
+      "name": {
+        "value": "Eyes-open resting state"
+      }
+    },
+    {
+      "name": {
+        "value": "Eyes-closed resting state"
+      }
+    }
+  ],
+  "version": "1.0",
+  "privacy": "open",
+  "licenses": [
+    {
+      "name": "CC BY"
+    }
+  ],
+  "distributions": [
+    {
+      "formats": [
+        "EDF"
+      ],
+      "size": 11,
+      "unit": {
+        "value": "GB"
+      },
+      "access": {
+        "landingPage": "https://eegnet.loris.ca",
+        "authorizations": [
+          {
+            "value": "registered"
+          }
+        ]
+      }
+    }
+  ],
+  "primaryPublications": [
+    {
+      "title": "A multilab investigation into the N2pc as an indicator of attentional selectivity: Direct replication of Eimer (1996)",
+      "publicationVenue": "Cortex",
+      "identifier": {
+        "identifier": "https://doi.org/10.1016/j.cortex.2025.05.014"
+      }
+    }
+  ],
+  "isAbout": [
+    {
+      "name": "Homo sapiens",
+      "identifier": {
+        "identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+        "identifierSource": "NCBI Taxonomy Database"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "value": "Resting state"
+    },
+    {
+      "value": "eeg"
+    },
+    {
+      "value": "EEGNet"
+    },
+    {
+      "value": "EEGManyLabs"
+    },
+    {
+      "value": "N2pc"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": "166"
+        }
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": "1181"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "External"
+        }
+      ]
+    },
+    {
+      "category": "origin_institution",
+      "values": [
+        {
+          "value": "University of Essex"
+        },
+        {
+          "value": "University of Granada"
+        },
+        {
+          "value": "ONERA The French Aerospace Lab"
+        },
+        {
+          "value": "University of Modena and Reggio Emilia"
+        },
+        {
+          "value": "University of Vienna"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Colchester"
+        },
+        {
+          "value": "Granada"
+        },
+        {
+          "value": "Salon-de-Provence"
+        },
+        {
+          "value": "Modena"
+        },
+        {
+          "value": "Vienna"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "United Kingdom"
+        },
+        {
+          "value": "Spain"
+        },
+        {
+          "value": "France"
+        },
+        {
+          "value": "Italy"
+        },
+        {
+          "value": "Austria"
+        }
+      ]
+    },
+    {
+      "category": "origin_consortium",
+      "values": [
+        {
+          "value": "EEGManyLabs"
+        }
+      ]
+    },
+    {
+      "category": "registrationPage",
+      "values": [
+        {
+          "value": "https://eegnet.loris.ca/"
+        }
+      ]
+    },
+    {
+      "category": "logo",
+      "values": [
+        {
+          "value": "eegnet-logo_0.png"
+        }
+      ]
+    },
+    {
+      "category": "BIDS_version",
+      "values": [
+        {
+          "value": "1.10.0"
+        }
+      ]
+    },
+    {
+      "category": "HED_version",
+      "values": [
+        {
+          "value": "8.3.0"
+        }
+      ]
+    },
+    {
+      "category": "collection_year",
+      "values": [
+        {
+          "value": "2024"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Dominik Welke, D.Welke@leeds.ac.uk"
+        }
+      ]
+    },
+    {
+      "category": "REB_statement",
+      "values": [
+        {
+          "value": "In submitting this dataset for inclusion, I declare that local law or a relevant institutional authorization otherwise enables the deposit of these data in an open-access portal."
+        }
+      ]
+    }
+  ]
+}
